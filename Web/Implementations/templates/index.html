@@ -19,16 +19,16 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../static/css/style.css" />
     <style>
       * {
         margin: 0;
         padding: 0;
         font-family: "Josefin Sans", sans-serif;
       }
-      #showcase {
+      .showcase {
         height: 70vh;
-        background: url("./showcase.jpg") no-repeat center center/cover;
+        background: url("../static/img/showcase.jpg") no-repeat center center/cover;
         opacity: 0.8;
         display: flex;
         align-items: center;
@@ -36,7 +36,7 @@
         text-align: center;
         color: rgb(190, 252, 243);
       }
-      #showcase .showcase-content {
+      .showcase .showcase-content {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -54,6 +54,7 @@
         margin-bottom: 260px;
         background-color: rgba(0, 0, 0, 0.4);
       }
+      
 
       /* html,
       body,
@@ -61,7 +62,7 @@
       #intro {
       } */
     </style>
-    <title>Diabetes Prediction</title>
+    <title>Health Status Analyzer</title>
   </head>
   <body>
     <header>
@@ -113,7 +114,7 @@
         </div>
       </nav>
     </header>
-    <section id="showcase">
+    <section class="showcase">
       <div class="showcase-content">
         <h1>Analyze The disease you have</h1>
         <h3>Get checkup done with ease</h3>
@@ -129,7 +130,7 @@
           Here, predict the chances of getting the disease, analyze the disease
           you are infected with and get the required medical precautiions
         </p>
-        <a class="btn btn-light" href="index2.html"> Find More</a>
+        <a class="btn btn-light" href="index.html"> Find More</a>
       </div>
     </section>
     <section id="features">

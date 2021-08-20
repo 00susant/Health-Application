@@ -129,7 +129,7 @@ h3 {
 }
 #home-info .info-img {
   float: left;
-  background: url("./disease.jpg") no-repeat;
+  background: url("../img/disease.jpg") no-repeat;
   width: 50%;
   min-height: 100%;
 }
