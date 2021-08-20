@@ -1,0 +1,180 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* main css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+/* utility */
+.container {
+  margin: auto;
+  max-width: 1100px;
+}
+.bg-dark {
+  background: #333;
+  color: white;
+}
+.bg-light {
+  background: white;
+  color: #333;
+}
+.bg-primary {
+  background: burlywood;
+}
+.text-primary {
+  color: burlywood;
+}
+.btn {
+  font-size: 18px;
+  display: inline-block;
+  background: #444;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  overflow: auto;
+}
+.btn-light {
+  background: white;
+  color: #444;
+}
+
+.btn:hover {
+  background: burlywood;
+  border-radius: 10px;
+  color: #444;
+}
+.clr {
+  clear: both;
+}
+/* paddding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+.l-heading {
+  font-size: 40px;
+}
+
+/* navbar */
+#navbar {
+  background: #333;
+  overflow: auto;
+}
+#navbar h1 {
+  font-size: 18px;
+  float: left;
+  padding-top: 20px;
+}
+#navbar a {
+  color: white;
+}
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background-color: #444;
+  color: burlywood;
+}
+
+/* showcase */
+
+#showcase .showcase-content {
+  text-align: center;
+  padding-top: 110px;
+  color: white;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#showcase h1 {
+  font-size: 50px;
+}
+#showcase p {
+  font-size: 20px;
+  padding: 0 10px;
+  padding-bottom: 30px;
+}
+/* home info */
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  float: left;
+  background: url("./disease.jpg") no-repeat;
+  width: 50%;
+  min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding-top: 40px;
+  min-height: 100%;
+  color: white;
+}
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* features */
+#features .box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  height: 300px;
+}
+/* main foooter */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: white;
+  padding: 20px;
+}
+
+/* about page */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img {
+  width: 70%;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}

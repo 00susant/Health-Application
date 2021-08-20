@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="../static/img/health.ico" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Josefin Sans", sans-serif;
+      }
+      #showcase {
+        height: 70vh;
+        background: url("./showcase.jpg") no-repeat center center/cover;
+        opacity: 0.8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(190, 252, 243);
+      }
+      #showcase .showcase-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0 2rem;
+        /* Overlay */
+        position: absolute;
+
+        top: 55px;
+        left: 0;
+        right: 0;
+        bottom: -100px;
+        margin-bottom: 260px;
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+
+      /* html,
+      body,
+      header,
+      #intro {
+      } */
+    </style>
+    <title>Diabetes Prediction</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Health Analyzer</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost:7643/"
+                >Heart Disease<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost:7644/"
+                >Kidney Disease</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost:7642/">Diabetes</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost:7645/">Liver Diease</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost:7641/">Cancer</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost:7646/"
+                >Lungs Disease</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost:7647/"
+                >Medicine Recommendor</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="showcase">
+      <div class="showcase-content">
+        <h1>Analyze The disease you have</h1>
+        <h3>Get checkup done with ease</h3>
+      </div>
+    </section>
+    <section id="home-info">
+      <div class="info-img"></div>
+      <div class="info-content bg-dark">
+        <h2>
+          <span class="text-primary">A new way to</span> Analyze Your Disease
+        </h2>
+        <p class="lead">
+          Here, predict the chances of getting the disease, analyze the disease
+          you are infected with and get the required medical precautiions
+        </p>
+        <a class="btn btn-light" href="index2.html"> Find More</a>
+      </div>
+    </section>
+    <section id="features">
+      <div class="box bg-light">
+        <h3>Predict</h3>
+        <p>Predict The chances of getting the disease on one go</p>
+      </div>
+      <div class="box bg-primary">
+        <h3>Analyze</h3>
+        <p>Check the nature the disease you are infected with</p>
+      </div>
+      <div class="box bg-light">
+        <h3>Cure</h3>
+        <p>Get the medical advice to care the disease you got.</p>
+      </div>
+    </section>
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; 2021 , Health Analyzer All rights reserverd</p>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
