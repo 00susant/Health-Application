@@ -5,7 +5,7 @@ This is Health Analyzer where we can see our health status regarding Kidney Dise
 ## Running the Application
 
 * Download the Zip or Clone the Repository .
-* Install Python
+* Install Python, Jupiter Notebook
 * Install Dependencies:
   pip install flask Joblib Tensorflow Numpy Pandas Sklearn Matplotlib Seaborn
 * Run Command in Implementaion Folder py app.py
